@@ -10,6 +10,9 @@ import logo from './logo.svg';
 
 class App extends React.Component {
   public render() {
+    /* tslint:disable */ 
+    console.log(this.state);
+    console.log("This is the process.env", process.env.PUBLIC_URL)
     return (
       <div className="App">
         <header className="App-header">

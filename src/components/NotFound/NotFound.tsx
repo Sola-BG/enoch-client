@@ -26,10 +26,11 @@ class Home extends React.Component<IProps, IState> {
   public render() {
     return (
       <div>
-        <p>
+        <h1>
           My Not Found number is {this.state.count}
-        </p>
-        <button onClick={this.increase}>
+        </h1>
+        
+        <button className="btn btn-success" onClick={this.increase}>
           Increase
         </button>
       </div>
